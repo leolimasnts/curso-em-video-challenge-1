@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto Slab';
+}
+
+/*----- HEADER -----*/
+
+header,
+div.title,
+header>h1,
+nav,
+nav>a {
+    display: flex;
+}
+
+header {
+    height: auto;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 5%);
+}
+
+div.title {
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+header>h1 {
+    padding: 10px 20px;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+div.nav-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+div.nav-container>nav {
+    justify-content: space-around;
+}
+
+div.nav-container>nav>a {
+    padding: 25px 10px 25px 10px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(105, 105, 105);
+    text-decoration: 0;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+}
+
+div.nav-container>nav>a:hover {
+    color: black;
+}
+
+/*----- MAIN -----*/
+
+.main-container {
+    margin: auto;
+    padding: 40px;
+    max-width: 900px;
+}
+
+.main-container>h1,
+h2 {
+    background-color: rgb(240, 240, 240);
+    padding: 5px 10px;
+}
+
+.main-container>p {
+    padding: 5px 0px 30px 0px;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+    font-weight: lighter;
+    font-size: 0.75em;
+    display: flex;
+    margin: 0;
+    padding: 0.5em;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+/*----- IMAGES AND VIDEOS -----*/
+
+img,
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+iframe {
+    border: 1px solid black;
+    padding: 0px;
+}
